@@ -3,24 +3,58 @@
     <head>
     <title>Blended Martial Arts</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Shojumaru" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body>
-        <div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#forms">Forms</a></li>
-                <li><a href="#book">Book Online</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-            
-            
-            
+    <body class="homepage">
+        <!--Navigation starts-->
+        <ul class="navigation">
+            <a href="index.html"><img id="yylogo" src="images/yin yang.png" alt="ying yang symbol"/></a>
+            <li id="bma">Blended Martial Arts</li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="classes.html">CLASSES</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+        </ul>
+        <!--Navigation ends-->
+        <!--Kickboxer Image-->
+        <div class="fighter">
+        <a href="classes.html"><img src="images/kickboxer.jpg" /></a>
+        <p id="text1"><a href="classes.html">KICKBOXING | FITNESS</a></p>
         </div>
+        <!--Muay Thai Image-->
+        <div class="fighter">
+        <a href="classes.html"><img src="images/two mma guys.jpg" /></a>
+        <p id="text2"><a href="classes.html">MUAY THAI | JIU JITSU</a></p> 
+        </div>
+        <!--Benefits-->
+        <div id="join">
+        <p id="question">Want the benefits of working out with a martial arts personal trainer?</p>
+        <ul>
+            <li>Physical Fitness Assessment</li>
+            <li>Self-defense & Awareness</li>
+            <li>Develop Self Discipline</li>
+            <li>Total Body Conditioning</li>
+            <li>Core Ab Strengthening</li>
+            <li>Increased Flexibility </li>
+            <li>Health Improvement</li>
+        </ul>
+        <!--Who doesn't love a free pass?-->
+        </div>
+        <div class="pass">
+        <p>Try a <span style="color:#ffff00;">free class</span> today!</p>
+        <form action="http://www.example.com/contact.php">
+            <p>First name: <input type="text" name="firstname" size="15" maxlength="30">&nbsp;&nbsp;Last name: <input type="text" name="lastname" size="15" maxlength="30"></p>
+            <p>Email address: <input type="email" name="email" size="30" maxlength="40"></p>
+            <p>Confirm email address: <input type="email" name="email" size="30" maxlength="40"></p>
+            <p>Mobile number: <input type="tel" name="tel"></p>
+            <p>Your availability (date and time): <input type="text" name="availability" size="30" maxlength="40"></p>
+        </form>
+        <form action="http://www.example.com/submit.php"> 
+            <input type="submit" name="submit" value="Submit" >
+        </form>
+        </div>
+        <!--Free passes are wonderful!-->
     </body>
-    
-    
-    
-    
-    
 </html>

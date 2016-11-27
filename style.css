@@ -1,0 +1,182 @@
+.homepage {
+    background-image:url("images/dark gray.jpg");
+    margin: 0;
+}
+.aboutpage {
+    background-color: #ffff1a;
+}
+.classpage {
+    background-color: #008000;
+}
+.contactpage {
+    background-color: #a52a2a;
+}
+.otherpage {    /*background image for login page*/
+    background-image: url("images/balance.jpg");
+    background-repeat: no-repeat;
+    background-size: 115%;
+}
+/*navigation css starts*/
+#yylogo {
+    width:100px;
+    height:100px;
+    float: left;
+    margin-right:60px;
+}
+#bma {
+    font-family: 'Shojumaru', cursive;
+    text-align: center;
+    font-size:30px;
+    color: #008000;
+}
+.navigation li a:link {
+    color: #0000ff;
+}
+.navigation li a:visited {
+    color: #0000ff;
+}
+.navigation li a:hover {
+    color:#ffff00;
+}
+.navigation li a:active {
+    color: #008000;
+}
+.navigation {
+    list-style-type: none;
+    max-width: 100%;
+    height: 100px;
+    background-color: #cc9900;
+}
+.navigation li a {
+    text-decoration: none;
+    text-align: center;
+    color:#ffffff;
+}
+.navigation li {
+    display:inline-block;
+    margin-right: 40px;
+    font-family: georgia, "Times New Roman", serif;
+    font-size: 20px;
+    margin-top: 25px;
+}
+/*navigation css ends*/
+/*kickboxer & muay thai images*/
+.fighter {
+    display:inline-block;
+    width:640px;
+    height:360px;
+    margin:5px 20px;
+    position: relative;
+    left: 35px;
+}
+.fighter p a{
+    color: #ffffff;
+    font-family: montserrat;
+    font-size: 20px;
+    width:300px;
+    text-align:center;
+    text-decoration: none;
+}
+#text1 {
+    position: absolute;
+    top: 30px;
+    margin-left: 20px;
+    width:300px;
+    opacity: .8;
+}
+#text2 {
+    position: absolute;
+    top: 30px;
+    margin-left: 20px;
+    width:300px;
+    opacity: .8;
+}
+/*benefits of joining*/
+#join {
+    text-decoration: none;
+    color: #ffff00;
+    font-family: 'Gentium Basic', serif;
+    font-size: 20px;
+    position: relative;
+    margin-left:60px;
+    top:10px;
+    width:1000px;
+    line-height: 140%
+  
+}
+#join li {
+    list-style-type: square;
+}
+#question {
+    color: #ee82ee;
+}
+/*free pass registration*/
+.pass {
+    width: 500px;
+    float:right;
+    margin-right:150px;
+    margin-top:-270px;
+    color:#000000;
+    font-size: 20px;
+    padding: 5px;
+    background-color:#0086b3;
+}
+/*about css starts*/
+#placeholder {
+    height: 400px;
+    width: 300;
+    float:left;
+    margin: 20px;
+}
+.profile {
+    color: #0086b3;
+    font-size:16px;
+}
+/*about css ends*/
+/*classes css starts*/
+table, td {
+    color:#ffffff;
+     margin-left: 40px;
+    text-align:justify;
+}
+.second {
+    width: 600px;
+    padding:40px;
+}
+/*classes css ends*/
+/*contact us css starts*/
+#geo {
+    float:left;
+    margin-left:40px;
+    margin-top:20px;
+    color:#ee82ee;
+    font-size:20px;
+}    
+#comment {
+   float:right;
+   margin-right: 90px;
+   margin-top:20px;
+   color:#ffff00;
+   font-size: 20px;
+}
+#comment textarea {
+    color:red;
+    font-style: italic;
+    border: 2px dashed #0000ff;
+    font-size: 16px;
+}
+/*contact us css ends*/
+/*login css starts*/
+.login {
+    width: 400px;
+    background-color:#ffffe6;
+    padding:40px;
+    margin-top: 100px;
+    margin-left:40px;
+}
+#member, #firsttime {
+    font-style: italic;
+    color: #ff0000;
+    font-size: 20px;
+} 
+/*login css ends*/
